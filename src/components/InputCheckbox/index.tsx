@@ -1,5 +1,5 @@
 import classNames from "classnames"
-import { useRef, useState } from "react"
+import { useRef } from "react"
 import { InputCheckboxComponent } from "./types"
 
 export const InputCheckbox: InputCheckboxComponent = ({ id, checked = false, disabled, onChange }) => {
